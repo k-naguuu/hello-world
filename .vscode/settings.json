@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "hello-world-env/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.analysis.typeCheckingMode": "strict",
+    "python.analysis.diagnosticMode": "workspace"
+}

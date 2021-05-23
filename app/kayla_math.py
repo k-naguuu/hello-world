@@ -5,19 +5,19 @@ Style tips are hard. This is called kayla_math.py btw.
 
 """
 
-from math import sqrt, e, factorial
-import decimal
+from math import sqrt, factorial
 
-def square(x): 
+
+def square(x: float)->float: 
     return x*x
 
-def hypotenuse (a,b): 
+def hypotenuse (a:float,b:float)->float: 
     
-   c = sqrt(square(a) + square(b))
+   c:float = sqrt(square(a) + square(b))
    return c
    
 
-def exp(x,n):
+def exp(x:float,n:int)->float:
     sum = 0.0
     for i in range (0, n+1):
         sum = (x**i)/float(factorial(i)) + sum 
